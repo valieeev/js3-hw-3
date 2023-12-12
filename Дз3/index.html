@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+        .block{
+            padding: 1rem;
+            margin: 1rem;
+            border-radius: 50px;
+            width: 200px;
+            display: flex;
+            border: 1px solid rgb(205, 20, 20);
+            flex-direction: column;
+            align-items: center;
+            background-color: rgb(255, 166, 0);
+        }
+    </style>
+     <input type="text" id="searchInput" placeholder="Введите имя для поиска">
+     <button onclick="search()">Поиск</button>
+    <h1 class="peoples">valiev</h1>
+    <div style="display: flex; flex-wrap: wrap;justify-content: space-between;" id="res"></div>
+    <div style="display: flex; flex-wrap: wrap;justify-content: space-between;" id="res"></div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
+
